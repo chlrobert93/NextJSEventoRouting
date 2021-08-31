@@ -11,17 +11,17 @@ const DUMMY_EVENTS = [
     },
     {
       id: 'e2',
-      title: 'Networking for introverts',
+      title: 'Networking',
       description:
         "We know: Networking is no fun if you are an introvert person. That's why we came up with this event - it'll be so much easier. Promised!",
       location: 'New Wall Street 5, 98765 New Work',
       date: '2021-05-30',
-      image: 'images/concert-event.jpg',
+      image: 'images/networking-event.jpg',
       isFeatured: true,
     },
     {
       id: 'e3',
-      title: 'Networking for extroverts',
+      title: 'Networking',
       description:
         'You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.',
       location: 'My Street 12, 10115 Broke City',

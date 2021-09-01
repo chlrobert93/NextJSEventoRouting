@@ -50,6 +50,7 @@ const DUMMY_EVENTS = [
     return filteredEvents;
   }
   
+  //Encuentra un evento por ID
   export function getEventById(id) {
     return DUMMY_EVENTS.find((event) => event.id === id);
   }

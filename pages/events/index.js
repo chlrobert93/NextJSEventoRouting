@@ -1,10 +1,14 @@
+import { getAllEvents } from "../../dummy-data";
+import EvenList from "../../components/events/EventList";
+
 function AllEventsPage() {
+  const events = getAllEvents();
+
   return (
     <div>
-      <h1>All Eevnts</h1>
+      <EvenList  items={events} />
     </div>
   );
 }
-
 
 export default AllEventsPage;

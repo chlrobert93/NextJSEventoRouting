@@ -8,6 +8,8 @@ function EventsSearch(props) {
   const yearInputRef = useRef();
   const monthInputRef = useRef();
   
+
+ //Cuando se envia el formulario 
  function submitHandler(event){
     event.preventDefault();
 
